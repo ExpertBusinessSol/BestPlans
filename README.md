@@ -1,13 +1,5 @@
-# Smartadmin
-
-[live](https://sang2-shockwave.rhcloud.com) demo
-
-## AOT Note
-Starting from version 1.8.7.2 we are supporting AOT builds.  
- 
-use `npm run build:aot` to run AOT build
- 
-if you'll get `FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory` use `npm run build:aot2` or increase node memory heep size even more (check `package.json` `scripts` section for details) 
+# Expert Business Solutions Tun 
+#Espace PRO (Best Plans)
 
 
 ## Prerequisites
@@ -113,7 +105,7 @@ Checkout `scripts` section in `package.json` for tools launching shortcuts
 write shell scripts for build/deploy/whatever routines automation
 
 
-## Smartadmin Angular 2 templates
+## EBS Angular 4 templates
 
 Smartadmin will be supplied with 3 templates: 
 * *full* - full demo application
@@ -139,13 +131,6 @@ Under the hood project is maintained with webpack.
 Checkout `config/` directory for environment specific webpack.config files 
 
 
-## Testing
-Testing is important for big projects. So we have good old js combo!
-
-App is configured for running end-to-end (via [Protractor](http://www.protractortest.org/)) and unit (via [Karma](https://karma-runner.github.io)) tests
-
-`npm run e2e` shortcut for executing end-to-end tests. 
-`npm run test` for unit tests.
 
 
 ## cookbook
@@ -174,18 +159,6 @@ App is configured for running end-to-end (via [Protractor](http://www.protractor
 * create shortcuts for frequent git operations and commit your progress more often
 * always automate DB backups.
 
-
-
-## next releases plans
-* reduce dependencies
-* html templates smart minifying 
-* smart-cli tool for creating and refactoring (or renaming) complex **angular** structures .
-
-
-## resources
-- [live project demo](https://sang2-shockwave.rhcloud.com)
-- [webpack 2 docs](https://webpack.js.org)
-- [angular-cli docs](https://github.com/angular/angular-cli)
 
 
 ## remarks
